@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+   
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="https://sites.google.com/view/javascript-5j/p%C3%A1gina-principal"><img src="img/alex.jpg" class="logo-alex"
+                        alt="Logo de alex" title="Logo de alex"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="icon ion-md-menu"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" id="inicio">Pagina principal</a>
+                            
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="enlace2.html" id="link">arrays</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="enlace3.html" id="link">Objetos especiales</a>
+                        </li>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="enlace4.html" id="link">Variables</a>
+                      </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="enlace5.html" id="link">Programacion basica</a>
+                    </li>
+
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <section id="hero">
+            <div class="container">
+                <div class="content-center topmargin-lg">
+                    <h1>Objetos especiales</h1>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <div class="texto-abajo"></div>
+          
+    </div>
+      
+  
+      <section>
+                    <h3 class="hola2">Objetos</h3>
+                    <img class="carlos" src="img/javaazul.png" width="400" height="400" align="left" alt="Alt Text"/>
+                    <article class="as7">Los tipos primitivos en JavaScript son undefined, null, boolean, number y string. Aunque pueda
+                        resultar extraño, el resto de elementos en JavaScript son objetos, tanto las funciones, arrays, expresiones
+                        regulares como los propios objetos. Un objeto en JavaScript es un contenedor de propiedades, donde una propiedad
+                        tiene un nombre y un valor. El nombre de una propiedad puede ser una cadena de caracteres, incluso una vacía. El
+                        valor de la propiedad puede ser cualquier valor que podamos utilizar en JavaScript, excepto undefined.
+                    
+                        En JavaScript, los objetos son básicamente tablas hash, esto es, un grupo de propiedades y funciones que pueden ser
+                        accedidos a través de una clave. Tanto las propiedades como los métodos (que no son más que propiedades cuyo valor
+                        es una función) pueden ser creados dinámicamente en tiempo de ejecución.</article><br><br><br><br><br><br><br><br>
+
+                       <img class="imagen-diagrama" src="img/imagen.png" alt="">
+                        <article class="as7">
+                            La manera más simple de construir un objeto en JavaScript, es declarar una nueva variable de tipo Object y asignarle
+                            las propiedades o métodos que el objeto necesite:
+                        
+                            var obj = new Object();
+                            obj.foo = "bar";
+                            obj.hello = function() { console.log("Hello world!"); }
+                            Existe una manera más rápida (en términos de caracteres), de crear un objeto utilizando la denominada notación
+                            literal. Esta representación consiste en asignar a una variable una pareja de llaves ({ }) para crear un objeto
+                            vacío, y asignar las propiedades y métodos de la misma manera que en el ejemplo anterior:
+                        
+                            var obj = {};
+                            obj.foo = "bar";
+                            obj.hello = function() { console.log("Hello world!"); }
+                        
+                            var obj = {
+                            "foo" : "bar",
+                            "hello" : function() { console.log("Hello world!"); }
+                            };
+                            Como hemos dicho, el nombre de una propiedad puede ser un string, incluso uno vacío. Las comillas dobles alrededor
+                            del nombre de la propiedad son opcionales, si el nombre es un nombre legal de JavaScript, y no es una palabra
+                            reservada. Así, las comillas dobles son necesarias para un nombre de propiedad como "first-name", pero no son
+                            necesarias para first_name. Los valores de las propiedades pueden ser cualquier expresión, incluso la definición de
+                            otro objeto:
+                        
+                            var flight = {
+                            airline: "Oceanic",
+                            number: 815,
+                            departure: {
+                            IATA: "SYD",
+                            time: "2004-09-22 14:55",
+                            city: "Sydney"
+                            },
+                            arrival: {
+                            IATA: "LAX",
+                            time: "2004-09-23 10:42",
+                            city: "Los Angeles"
+                            }
+                            };
+                            En JavaScript, los objetos son dinámicos, esto quiere decir que sus propiedades no tienen por qué ser definidas en
+                            el momento en el que creamos el objeto. Podemos añadir nuevas propiedades al objeto en tiempo de ejecución, tan solo
+                            indicando el nombre la propiedad y asignándole un valor o función.
+                        </article>
+
+
+
+                     </section>
+
+                <footer>
+                        <section>
+                            <h3>Alexandra Marianne Jimenez Lopez 5to "J"</h3>
+                            <p>&copy; Derechos reservados</p>
+                        </section>
+                    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+
+  
+</html>

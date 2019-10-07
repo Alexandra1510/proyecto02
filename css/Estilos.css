@@ -1,0 +1,96 @@
+.logo-alex{
+    height: 90px;
+    width: 90px;
+}
+
+.contenedor{
+    padding: 110px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .texto-encima{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+
+    }
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: aliceblue
+    
+}
+footer{
+    color: beige;
+    background-color: 	#808080;
+}
+center{
+    padding-right: 730px;
+    height: 500px;
+   
+}
+#hero h1{
+    font-size: 100px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+#hero{
+    background-image: url('../img/descarga\ java.png');
+    background-size: cover;
+    padding-top: 150px;
+    min-height: 500px;
+    width: 1700px;
+    margin-left: 0;
+
+    color:#1a1a1a;
+}
+
+.texto-abajo{
+    color: brown;
+    font-size: 50px;
+}
+.nav-link{font-size: 20px;}
+.navbar{
+    background-color: #ffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    min-height: 100px;
+}
+
+.carlos{
+      margin-left: 300px;
+  }
+.as5{
+    font-size: 19px;
+}
+  .hola1{
+    margin-left: 600px;
+  }
+  .as6{
+    font-size: 19px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .as7{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .hola2{
+    margin-left: 900px;
+  }
+  .imagen-diagrama{
+      margin-left: 600px;
+  }
+  .texto-abajo2{
+    color: brown;
+    font-size: 50px;
+    margin-left: 800px;
+  }
+  .img1{
+    margin-left: 350px;
+  }
